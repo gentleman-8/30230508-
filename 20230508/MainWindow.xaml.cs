@@ -180,6 +180,16 @@ namespace _20230508
             operators = -1;
         }
 
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (txtNumber.Text.Length >0)
+            {
+                txtNumber.Text = txtNumber.Text.Remove(txtNumber.Text.Length - 1);
+            }
+            if (txtNumber.Text == "")
+                txtNumber.Text = "0";
+        }
+
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             Select_Operator(0);
