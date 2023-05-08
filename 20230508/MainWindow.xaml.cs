@@ -26,7 +26,12 @@ namespace _20230508
         {
             InitializeComponent();
         }
-
+        private void Add_Number(string _number)
+        {
+            if (txtNumber.Text == "0")
+                txtNumber.Text = "";
+            txtNumber.Text = txtNumber.Text + _number;
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             1
