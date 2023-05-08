@@ -34,7 +34,7 @@ namespace _20230508
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            1
+            Add_Number("1"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnClear_Click(object sender, RoutedEventArgs e)
@@ -47,17 +47,17 @@ namespace _20230508
 
         private void btnSeven_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("7"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnEight_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("8"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnNine_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("9"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnDivide_Click(object sender, RoutedEventArgs e)
@@ -67,17 +67,17 @@ namespace _20230508
 
         private void btnFour_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("4"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnFive_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("5"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnSix_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("6"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnPlus_Click(object sender, RoutedEventArgs e)
@@ -87,12 +87,12 @@ namespace _20230508
 
         private void btnTwo_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("2"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnThree_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("3"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnMinus_Click(object sender, RoutedEventArgs e)
@@ -111,7 +111,7 @@ namespace _20230508
 
         private void btnZero_Click(object sender, RoutedEventArgs e)
         {
-
+            Add_Number("0"); // 只需要呼叫Add_Number函式，並且設定參數為數字1
         }
 
         private void btnEqual_Click(object sender, RoutedEventArgs e)
